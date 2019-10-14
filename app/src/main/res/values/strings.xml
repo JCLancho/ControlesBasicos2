@@ -1,8 +1,15 @@
 <resources>
-    <string name="app_name">ControlesBasicos2</string>
+    <string name="app_name">Comunicacion</string>
     <string name="actividad_01">ACTIVIDAD 01</string>
     <string name="actividad_02">ACTIVIDAD 02</string>
     <string name="actividad_03">ACTIVIDAD 03</string>
     <string name="actividad_04">ACTIVIDAD 04</string>
     <string name="salir">SALIR</string>
+    <string name="nombre">Nombre:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="verificar">Verificar</string>
+    <string name="aceptas_las_condiciones">Aceptas las condiciones:</string>
+    <string name="volver">Volver</string>
+    <string name="nombre_apellidos">Nombre y Apellidos</string>
+    <string name="aceptar_condiciones">Aceptar Condiciones</string>
 </resources>
