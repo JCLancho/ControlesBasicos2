@@ -33,7 +33,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginBottom="5dp"
-        android:text="@string/actividad_02" />
+        android:text="@string/actividad_02"
+        android:onClick="ejercicio2"/>
 
     <Button
         android:id="@+id/button3"
@@ -41,7 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginBottom="5dp"
-        android:text="@string/actividad_03" />
+        android:text="@string/actividad_03"
+        android:onClick="ejercicio3"/>
 
     <Button
         android:id="@+id/button4"
@@ -49,14 +51,16 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginBottom="5dp"
-        android:text="@string/actividad_04" />
+        android:text="@string/actividad_04"
+        android:onClick="ejercicio4"/>
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:text="@string/salir" />
+        android:text="@string/salir"
+        android:onClick="salir"/>
 
 
 </LinearLayout>

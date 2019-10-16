@@ -12,4 +12,10 @@
     <string name="volver">Volver</string>
     <string name="nombre_apellidos">Nombre y Apellidos</string>
     <string name="aceptar_condiciones">Aceptar Condiciones</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="rechazar">rechazar</string>
+    <string name="aceptado">ACEPTADO</string>
+    <string name="rechazado">RECHAZADO</string>
+    <string name="calculadora_simple">Calculadora Simple</string>
+    <string name="resultado_operacion">Resultado Operacion</string>
 </resources>

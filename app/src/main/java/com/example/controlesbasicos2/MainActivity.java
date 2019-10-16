@@ -22,18 +22,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ejercicio2(View v){
-        Intent intent = new Intent(this, ejercicio1.class);
+        Intent intent = new Intent(this, ejercicio2.class);
         startActivity(intent);
     }
 
     public void ejercicio3(View v){
-        Intent intent = new Intent(this, ejercicio1.class);
+        Intent intent = new Intent(this, ejercicio3.class);
         startActivity(intent);
     }
 
     public void ejercicio4(View v){
-        Intent intent = new Intent(this, ejercicio1.class);
+        Intent intent = new Intent(this, ejercicio4.class);
         startActivity(intent);
+    }
+
+    public void salir(View v){
+
+        finish();
     }
 
 }
