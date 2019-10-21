@@ -3,11 +3,16 @@ package com.example.controlesbasicos2;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.animation.ArgbEvaluator;
+import android.animation.ObjectAnimator;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.TransitionDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.controlesbasicos2.R;
 
@@ -44,6 +49,7 @@ public class ejercicio2 extends AppCompatActivity {
         }
     }
 
+
     public void comprobar(View v){
         if(resultado.getText().length() > 0) {
             Intent intent = new Intent(this, ejercicio2b.class);
@@ -52,6 +58,13 @@ public class ejercicio2 extends AppCompatActivity {
             intent.putExtra("resultado", resultado.getText().toString());
             startActivityForResult(intent, 1234);
         }else{
+            int colorFrom = Color.TRANSPARENT;
+            int colorTo = Color.RED;
+            int duration = 1000;
+            ObjectAnimator.ofObject(resultado, "backgroundColor", new ArgbEvaluator(),colorFrom,colorTo).setDuration(duration).start();
+            ObjectAnimator.ofObject(resultado, "backgroundColor", new ArgbEvaluator(),colorTo,colorFrom).setDuration(duration).start();
+            ObjectAnimator.ofObject(resultado, "backgroundColor", new ArgbEvaluator(),colorFrom,colorTo).setDuration(duration).start();
+            ObjectAnimator.ofObject(resultado, "backgroundColor", new ArgbEvaluator(),colorTo,colorFrom).setDuration(duration).start();
 
         }
     }
