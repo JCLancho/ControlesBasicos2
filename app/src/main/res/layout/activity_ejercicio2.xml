@@ -84,8 +84,7 @@
         android:inputType="number"
         android:maxLength="3"
         app:layout_constraintStart_toEndOf="@+id/segundoDigito"
-        app:layout_constraintTop_toTopOf="@+id/segundoDigito"
-        android:background="@drawable/transition_drawable"/>
+        app:layout_constraintTop_toTopOf="@+id/segundoDigito"/>
 
     <Button
         android:id="@+id/btnComprobar"

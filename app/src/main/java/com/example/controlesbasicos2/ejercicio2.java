@@ -63,8 +63,6 @@ public class ejercicio2 extends AppCompatActivity {
             int duration = 1000;
             ObjectAnimator.ofObject(resultado, "backgroundColor", new ArgbEvaluator(),colorFrom,colorTo).setDuration(duration).start();
             ObjectAnimator.ofObject(resultado, "backgroundColor", new ArgbEvaluator(),colorTo,colorFrom).setDuration(duration).start();
-            ObjectAnimator.ofObject(resultado, "backgroundColor", new ArgbEvaluator(),colorFrom,colorTo).setDuration(duration).start();
-            ObjectAnimator.ofObject(resultado, "backgroundColor", new ArgbEvaluator(),colorTo,colorFrom).setDuration(duration).start();
 
         }
     }
